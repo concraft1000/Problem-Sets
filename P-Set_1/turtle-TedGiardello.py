@@ -135,10 +135,12 @@ if 1: #draws the letter 'H'
 
 if 1: #draws the letter 'S' curve form
 	bird.up()
-	bird.forward(147)
+	bird.forward(167)
 	bird.left(90)
-	bird.forward(190)
+	bird.back(10)
 	bird.right(310)
+	bird.left(40)
+	bird.forward(40)
 	bird.down()
 
 	_draw_s_(3, 2)
